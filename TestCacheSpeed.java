@@ -8,13 +8,13 @@ public class TestCacheSpeed {
 		
 		int cachesize = 100;
 		//initialize with your cache implementation		
-		//Cache<String, String> cache = new;
+		LRUCache<String, String> cache = new LRUCache<>(cachesize);
 		
 		//give path to the dat file
-		String dataFile = "datasets/dataset-1000/data-1000.dat";
+		String dataFile = "dataset-1000/data-1000.dat";
 		
 		//give path to the workload file
-		String requestsFile = "datasets/dataset-1000/requests-10000.dat";
+		String requestsFile = "dataset-1000/requests-10000.dat";
 
 		DataSource dataSource = new DataSource(dataFile);
 		WorkloadReader requestReader = new WorkloadReader(requestsFile);
