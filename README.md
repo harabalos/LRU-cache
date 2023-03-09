@@ -38,4 +38,4 @@ Stats: lookups 100000, hits 10074, hit-ratio 0.100740
 
 License:
 --------------------
-This project is licensed under the [MIT](LICENSE.txt) license. 
+This project is licensed under the [MIT](LICENCE.txt) license. 
